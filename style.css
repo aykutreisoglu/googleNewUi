@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header  Sections*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+}
+
+.header a {
+  margin-right: 20px;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 15px;
+  text-decoration: inherit;
+  color: #5f6368;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+.header img {
+  width: 25px;
+  height: 25px;
+  border-radius: 10px;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  min-width: 13vw;
+  justify-content: space-between;
+}
+.header-right .header-apps {
+  margin: 10px;
+}
+
+/* Body Sections */
+
+.main-body {
+  flex: 1;
+  display: flex;
+  margin-top: 5%;
+  flex-direction: column;
+}
+
+.main-body img {
+  object-fit: contain;
+  height: 100px;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  height: 30px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  width: 75vw;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 480px;
+}
+
+.search-input input {
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+}
+
+.search-input .material-icons {
+  color: gray;
+}
+
+.search-buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.search-buttons button {
+  margin: 11px 14px;
+  padding: 0 16px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  cursor: pointer;
+  height: 36px;
+  border-radius: 4px;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  min-width: 54px;
+  color: #5f6368;
+}
+
+/* Footer Section */
+
+.main-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  height: 20px;
+  font-family: arial, sans-serif;
+  padding: 10px 30px;
+}
+
+.footer-right a {
+  margin-right: 20px;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 15px;
+  text-decoration: inherit;
+  color: #5f6368;
+}
+
+.footer-left a {
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 15px;
+  text-decoration: inherit;
+  color: #5f6368;
+}
+
+.main-footer a:hover {
+  text-decoration: underline;
+}
